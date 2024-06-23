@@ -1,0 +1,103 @@
+/*=========== TABLE OF CONTENTS ===========
+1. CSS Variables
+2. Utility CSS
+==========================================*/
+
+/*-------------------------------------
+  1. CSS Variables
+--------------------------------------*/
+:root {
+  /*------Color variables------*/
+  --amber_400: #f2c319;
+  --amber_400_19: #f2c31919;
+  --amber_a400: #f1bc00;
+  --black_900: #000000;
+  --black_900_19: #00000019;
+  --black_900_99: #00000099;
+  --blue_gray_500: #757095;
+  --deep_purple_50: #eeeeff;
+  --gray_100: #f6f6f6;
+  --gray_100_01: #f5f5f5;
+  --gray_300: #e5e5e5;
+  --gray_400: #c4c4c4;
+  --gray_400_01: #cac9c2;
+  --gray_50: #f9f9f9;
+  --gray_50_01: #fafafa;
+  --gray_700: #575757;
+  --gray_800: #3e3e3e;
+  --gray_900: #05141f;
+  --gray_900_01: #141414;
+  --gray_900_02: #181433;
+  --gray_900_03: #272727;
+  --gray_900_04: #081630;
+  --gray_900_05: #0e1c27;
+  --gray_900_07: #10182807;
+  --gray_900_0c: #0816300c;
+  --gray_900_19: #08163019;
+  --gray_900_33: #18143333;
+  --gray_900_7a: #0816307a;
+  --gray_900_7f: #1814337f;
+  --gray_900_7f_01: #0816307f;
+  --gray_900_cc: #081630cc;
+  --orange_600: #fe8400;
+  --red_400_26: #df695126;
+  --white_a700: #ffffff;
+  --white_a700_d8: #ffffffd8;
+
+  /*------Shadow variables------*/
+  --shadow-xs: 0 4.16px 16px 0 #00000019;
+  --shadow-sm: 0 15.9px 27px 0 #df695126;
+  --shadow-md: 0 15.49px 27px 0 #df695126;
+
+  /*------Border radius variables------*/
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --radius-xl: 8px;
+  --radius-2xl: 12px;
+  --radius-3xl: 14px;
+  --radius-4xl: 16px;
+  --radius-5xl: 18px;
+  --radius-6xl: 20px;
+  --radius-7xl: 22px;
+  --radius-8xl: 24px;
+  --radius-9xl: 28px;
+  --radius-10xl: 50px;
+  --radius-11xl: 68px;
+
+  /*------Spacing variables------*/
+  --space-xs: 6px;
+  --space-sm: 7px;
+  --space-md: 8px;
+  --space-lg: 10px;
+  --space-xl: 12px;
+  --space-2xl: 14px;
+  --space-3xl: 16px;
+  --space-4xl: 18px;
+  --space-5xl: 20px;
+  --space-6xl: 22px;
+  --space-7xl: 24px;
+  --space-8xl: 26px;
+  --space-9xl: 28px;
+  --space-10xl: 30px;
+  --space-11xl: 32px;
+  --space-12xl: 34px;
+}
+
+/*-------------------------------------
+  2. Utility CSS
+--------------------------------------*/
+.flex-row-center-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col-center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
